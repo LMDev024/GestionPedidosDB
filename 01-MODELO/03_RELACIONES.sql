@@ -1,0 +1,18 @@
+
+-- CLIENTES -> PEDIDOS 
+ALTER TABLE Pedidos
+ADD CONSTRAINT FK_Pedido_Clientes
+FOREIGN KEY (ClienteID) REFERENCES Clientes(ClienteID);
+GO
+
+-- PEDIDOS -> DETALLEPEDIDOS
+ALTER TABLE DetallePedidos
+ADD CONSTRAINT FK_DetallePedidos_Pedidos
+FOREIGN KEY (PedidoID) REFERENCES Pedidos(PedidoID);
+GO
+
+-- PRODUCTOS -> DETALLEPEDIDOS
+ALTER TABLE DetallePedidos
+ADD CONSTRAINT FK_DetallePedidos_Productos
+FOREIGN KEY (ProductoID) REFERENCES Productos(ProductoID);
+GO

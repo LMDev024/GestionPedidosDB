@@ -1,0 +1,14 @@
+
+SET NOCOUNT ON;
+
+BEGIN TRY 
+	DECLARE @x INT = 10, @y INT = 0;
+	DECLARE @Z INT;
+
+	SET @Z = @X / @y;
+END TRY
+BEGIN CATCH
+	PRINT 'Se capturó un error: '+ERROR_MESSAGE();
+	THROW;
+END CATCH
+GO
