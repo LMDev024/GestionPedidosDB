@@ -56,5 +56,5 @@ Relaciones principales:
 
 ---
 
-**Este proyecto demuestra buenas prácticas en diseño, desarrollo y documentación de bases de datos en SQL Server.**
+**Este proyecto demuestra buenas prácticas en diseño, desarrollo y documentación de bases de datos en SQL Server, Puede ser usado para agregarle mejoras y ampliar mas el dominio, aplicando mas complejidad sobre este modelo basee y demostrar mas conocimientos**
 
