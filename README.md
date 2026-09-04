@@ -154,7 +154,7 @@ erDiagram
 
 ## 👨‍💻 Autor y Contacto
 
-**Luis Malagón (LMDev024)**  
+**Meliodas (LMDev024)**  
 *Desarrollador de Software Full Stack | Especialista en Bases de Datos Relacionales, SQL Server & .NET*
 
 * **GitHub:** [@LMDev024](https://github.com/LMDev024)
